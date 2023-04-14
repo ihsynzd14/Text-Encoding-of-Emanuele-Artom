@@ -1,0 +1,1504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Appunto della Signora Amalia Artom sul diario del figlio Emanuele ”
+    Filename: diario.xml
+    Author: Iskandar Huseynzade
+    Author: Ashmita Tandukar
+    Date: 2023-04 -->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <!-- HEADER -->
+    <teiHeader>
+    
+        <fileDesc> 
+                <titleStmt>
+                    <title xml:lang="it"> Diari di Emanuele Artom </title>
+                    <title type="sub"><date from="1943-11--" to="1944-02-23"> Novembre 1943 - 23 Febbraio 1944 </date></title>
+                    <author ref="#EA" role="partisan">Emanuele Artom </author>
+                </titleStmt>
+
+                <!-- informazioni editoriali -->
+                <editionStmt>
+                    <edition n="Digital edition"> Edizione digitale <date when="2023-04">Aprile 2023</date> </edition>
+                    <respStmt> <!-- "Responsabilità" dei contenuti --> 
+                        <resp>Progetto coordinato da </resp>
+                        <persName> 
+                            <name ref="#AMDG">Angelo Mario del Grosso</name>
+                        </persName>                                          
+                    </respStmt>
+                    <respStmt>
+                        <resp>Codifica del testo curata da</resp>
+                        <persName>
+                            <name ref="#IH">Iskandar Huseynzade</name>
+                        </persName>
+                        <persName>
+                            <name ref="#AT">Ashmita Tandukar</name>
+                        </persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Pubblicati integralmente:</resp>
+                        <persName>
+                            <name ref="#GS">Guri Schwarz</name>
+                        </persName>
+                    </respStmt>
+                </editionStmt>
+
+                <!-- Informazioni sulla publbicazione -->
+                <publicationStmt>
+                    <publisher ref="#Unipi"> Università di Pisa </publisher>
+                    <pubPlace> Pisa </pubPlace>
+                    <availability status="free"><p>Opera di libero accesso</p></availability>   
+                    <date when="2023-04"> Aprile 2023 </date> 
+                </publicationStmt>
+
+                <!-- Indica la fonte da cui un file è derivato  -->
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>                 
+                            <country key="IT" type="nation">Italia</country> 
+                            <settlement>Milano</settlement>
+                            <institution>La Fondazione Centro di Documentazione Ebraica Contemporanea</institution>
+                            <repository role="history institute">La Fondazione <placeName ref="#CDEC">Centro di Documentazione Ebraica Contemporanea</placeName></repository> 
+                            <collection>Fondo Emanuele Artom</collection>
+                            <idno type="inventory">	b. 1 , fasc. 9 ,</idno>
+                        </msIdentifier>
+                        <!-- Descrizione del contenuto del manoscritto -->
+                        <msContents>
+                            <msItem>
+                                <author xml:lang="it" ref="#EA">Emanuele Artom </author>
+                                <respStmt>
+                                    <resp>Lettera di accompagnamento scritta da:</resp>
+                                    <persName ref="#AA">Amalia Artom</persName>
+                                </respStmt>                                
+                                <title xml:lang="it">Diario di Emanuele Artom </title>
+                                <title type="sub"><date from="1943-11" to="1944-02-23"> novembre 1943 - 23 febbraio 1944 </date></title>
+                                <textLang mainLang="it">Italiano</textLang>
+                            </msItem>
+                        </msContents>
+                        <!-- Descrizione fisica -->
+                        <physDesc>
+                            <objectDesc form="manuscript">
+                                <supportDesc material="paper" source="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html"> 
+                                    <support>
+                                        <material> Fogli di carta sottili </material>
+                                    </support>
+                                    <extent>
+                                        <measureGrp type="notebook" unit="pages" source="http://digital-library.cdec.it/cdec-web/viewer/cdecxDamsHist003/IT-CDEC-ST0003-000006#page/1/mode/1up">
+                                            <measure quantity="173"> 173 pagine + </measure>
+                                            <measure quantity="1"> 1 pagina frontale + </measure>
+                                            <measure quantity="1"> 1 foglietto </measure>
+                                            <measure>La seconda parte del diario ha 173 pagine + 1 pagina frontale + 1 foglietto</measure>
+                                        </measureGrp> 
+                                    </extent>
+                                    <condition>Le pagine sono relativamente in buone condizioni, sono ben conservate 
+                                    il manoscritto risulta quindi abbastanza leggibile tranne per alcuni passaggi nel la lettura è ostacolata
+                                    </condition>
+                                </supportDesc>
+                            </objectDesc>
+                            <handDesc hands="2">
+                                <handNote scope="major" medium="black pencil" script="cursive"> 
+                                <p>Il diario è scritto dalla sola mano di <persName ref="#EA">Emanuele Artom</persName> iniziando dalla seconda pagina del manoscritto.</p>
+                                </handNote>
+                            	<handNote scope="minor" medium="black pen red pen" script="cursive">
+								<p>La prima pagina del manoscritto contiene un'epigrafo di <persName ref="AA">Amalia Artom</persName>.</p>
+							    </handNote>
+                            </handDesc>
+                            <accMat>La raccolta di scritti è accompagnata da una lettera della madre Amalia Artom</accMat>
+                        </physDesc>
+                        <!-- Storia -->
+                        <history>
+                        <!-- CHIEDERE COLLEGHI -->
+                            <origin from="1943-11" to="1944-02-23">
+                                <p>
+                                La seconda parte del diario è stato succeso tra periodi novembre 1943 al 23 febbraio 1944.
+                                Raccolta degli scritti autografi di <persName ref="#EA">Emanuele Artom</persName> redatti tra il 1943 e il 1944 
+                                accompagnati dalla lettera originale della madre <persName ref="#AA">Amalia Artom</persName>. 
+                                É stato consegnato al<placeName ref="#CDEC">Centro di Documentazione Ebraica Contemporanea</placeName>.
+                                Un fonte che esso ha un grande valore storico sull'ebraismo e sulla resistenza in <country key="IT" type="nation">Italia</country>.
+                                </p>
+                            </origin>                           
+                        </history>                       
+                    </msDesc>
+                </sourceDesc>
+        </fileDesc>
+
+        <!-- informazioni riguardo lo schema, il modello di cofica --> 
+        <encodingDesc>
+            <editorialDecl> 
+ 
+                <correction method="markup" status="high">
+                    <p>Nel testo la correzione è rappresentata dall'elemento <gi>choice</gi> utilizzato per gli errori sono stati marcati con il tag <gi>sic</gi> e la correzione è marcata con il <gi>corr</gi>. 
+                       Gli errori abbiamo corretto sono:
+                       - Pagina 3 Riga 13 "Ieri" al posto di "Ier"
+                       - Pagina 4 Riga 3 "la" al posto di "ila"
+                       - Pagina 6 Riga 2 "infermeria" al posto di "infermerià"
+                       - Pagina 7 Riga 2 "Il" al posto di "ELe"
+                    </p>
+                </correction>
+
+                <normalization method="markup"> 
+                    <p>Le normalizzazioni sono state adottate in due casi:
+                        In entrambi i casi la normalizzazione è rappresentata dall'elemento <gi>choice</gi> utilizzato per racchiudere <gi>orig</gi> in cui si riporta l'occorrenza così come compare nel testo della fonte, e <gi>reg</gi> in cui l'occorrenza appare normalizzata.
+                        Abbiamo normalizzato le nazionalità che è stato scritto con maiscolo invece che forma corretto è con minuscola.
+                        Gli occorenze che abbiamo normalizzato sono:
+                        - Pagina 5 Riga 14 "oggi" al posto di "Oggi"
+                        - Pagina 5 Riga 15 "dise" al posto di "disse"
+                        - Pagina 6 Riga 12 "Tedeschi" al posto di "tedeschi"
+                        - Pagina 6 Riga 17 "Ebrei" al posto di "ebrei"
+                    </p>
+                </normalization>
+
+                <hyphenation eol="all"> 
+                    <p> Solo abbiamo interpretato una volta nella Pagina 5 Riga 14 correggendo il trattino come un punto.
+                    </p>
+                </hyphenation>
+
+                <punctuation marks="all"> 
+                    <p> Tutte le punteggature sono stati mantenuti come testo originale,
+                        è rappresentata dall'elemento <gi>pc</gi> quando va a capo.
+                    </p>
+                </punctuation>
+
+            </editorialDecl>
+        </encodingDesc>
+
+        <!--  fornisce una descrizione dettagliata degli aspetti non bibliografici di un testo nel date corresp mettere ?-->
+        <profileDesc> 
+            <creation>
+            <date from="1943-11-23" to="1943-11-24"> 23 novembre 1943 - 24 novembre 1943 </date> Pagina tre
+            <date when="1943-11-24"> 24 novembre 1943 </date> Pagina quatro
+            <date from="1943-11-24" to="1943-11-25"> 24 novembre 1943 - 25 novembre 1943 </date> Pagina cinque
+            <date when="1943-11-25"> 25 novembre 1943 </date> Pagina sei
+            <date when="1943-11-27"> 27 novembre 1943 </date> Pagina sette
+            </creation>
+            <langUsage> 
+                <language ident="it">Italiano</language>
+            </langUsage>
+        </profileDesc>
+
+    </teiHeader>
+
+
+    <facsimile>
+        <!-- Pagina Terza  -->
+        <surface n="1" xml:id="pagina_terza">
+            <graphic url='pagina3.jpg' width='500px' height='1024px' />
+
+                <zone ulx="30" uly="27" lrx="681" lry="485"  rendition="hotspot" xml:id="facs_23nov-1943-pag3"/> <!-- contenuto di 23 novembre 1943 -->
+                <zone ulx="33" uly="501" lrx="701" lry="986"  rendition="hotspot" xml:id="facs_24nov-1943-pag3" /> <!-- contenuto di 24 novembre 1943 -->
+               
+                <!-- Righe -->
+                <zone ulx="36" uly="34" lrx="649" lry="71" rendition="line" xml:id="facs_pag3-lb1"/> <!-- Riga 1 -->
+                <zone ulx="38" uly="77" lrx="668" lry="109" rendition="line" xml:id="facs_pag3-lb2"/> <!-- Riga 2 -->
+                <zone ulx="40" uly="120" lrx="661" lry="150" rendition="line" xml:id="facs_pag3-lb3"/> <!-- Riga 3 -->
+                <zone ulx="38" uly="151" lrx="667" lry="196" rendition="line" xml:id="facs_pag3-lb4"/> <!-- Riga 4 -->
+                <zone ulx="37" uly="205" lrx="695" lry="244" rendition="line" xml:id="facs_pag3-lb5"/> <!-- Riga 5 -->
+                <zone ulx="37" uly="249" lrx="688" lry="286" rendition="line" xml:id="facs_pag3-lb6"/> <!-- Riga 6 -->
+                <zone ulx="43" uly="280" lrx="644" lry="324" rendition="line" xml:id="facs_pag3-lb7"/> <!-- Riga 7 -->
+                <zone ulx="43" uly="331" lrx="635" lry="360" rendition="line" xml:id="facs_pag3-lb8"/> <!-- Riga 8 -->
+                <zone ulx="54" uly="376" lrx="654" lry="402"  rendition="line" xml:id="facs_pag3-lb9"/> <!-- Riga 9 -->
+                <zone ulx="56" uly="414" lrx="654" lry="441" rendition="line" xml:id="facs_pag3-lb10"/> <!-- Riga 10 -->
+                <zone ulx="59" uly="455" lrx="678" lry="487" rendition="line" xml:id="facs_pag3-lb11"/> <!-- Riga 11 -->
+                <zone ulx="38" uly="491" lrx="684" lry="516" rendition="line" xml:id="facs_pag3-lb12"/> <!-- Riga 12 -->
+                <zone ulx="43" uly="515" lrx="703" lry="549" rendition="line" xml:id="facs_pag3-lb13"/> <!-- Riga 13 -->
+                <zone ulx="45" uly="554" lrx="708" lry="590" rendition="line" xml:id="facs_pag3-lb14"/> <!-- Riga 14 -->
+                <zone ulx="44" uly="596" lrx="694" lry="627" rendition="line" xml:id="facs_pag3-lb15"/> <!-- Riga 15 -->
+                <zone ulx="45" uly="633" lrx="707" lry="669" rendition="line" xml:id="facs_pag3-lb16"/> <!-- Riga 16 -->
+                <zone ulx="40" uly="674" lrx="676" lry="707" rendition="line" xml:id="facs_pag3-lb17"/> <!-- Riga 17 -->
+                <zone ulx="34" uly="713" lrx="691" lry="754" rendition="line" xml:id="facs_pag3-lb18"/> <!-- Riga 18 -->
+                <zone ulx="43" uly="760" lrx="695" lry="791" rendition="line" xml:id="facs_pag3-lb19"/> <!-- Riga 19 -->
+                <zone ulx="37" uly="801" lrx="689" lry="841" rendition="line" xml:id="facs_pag3-lb20"/> <!-- Riga 20 -->
+                <zone ulx="37" uly="848" lrx="663" lry="881" rendition="line" xml:id="facs_pag3-lb21"/> <!-- Riga 21 -->
+                <zone ulx="38" uly="890" lrx="664" lry="920" rendition="line" xml:id="facs_pag3-lb22"/> <!-- Riga 22 -->
+                <zone ulx="39" uly="929" lrx="647" lry="971" rendition="line" xml:id="facs_pag3-lb23"/> <!-- Riga 23 -->
+                
+
+                <!-- Hotspot -->
+                <zone ulx="37" uly="41" lrx="215" lry="72" rendition="hotspot" xml:id="facs_pag3-lb1-del1" /> <!-- Cancellatura riga 1-->
+                <zone ulx="40" uly="118" lrx="185" lry="151" rendition="hotspot" xml:id="facs_pag3-lb3-del2" /> <!-- Cancellatura riga 3-->
+                <zone ulx="40" uly="118" lrx="185" lry="151" rendition="hotspot" xml:id="facs_pag3-lb4-add1"/> <!-- Aggiunta su cancellatura riga 4 -->
+                <zone ulx="270" uly="172" lrx="460" lry="196" rendition="hotspot" xml:id="facs_pag3-lb4-del3" /> <!-- Cancellatura riga 4-->
+                <zone ulx="157" uly="235" lrx="226" lry="251" rendition="hotspot" xml:id="facs_pag3-lb6-add2" /> <!-- Aggiunta riga 6 -->
+                <zone ulx="447" uly="287" lrx="620" lry="318" rendition="hotspot" xml:id="facs_pag3-lb7-del4" /> <!-- Cancellatura riga 7-->
+                <zone ulx="48" uly="324" lrx="504" lry="361"  rendition="hotspot" xml:id="facs_pag3-lb8-del5" /> <!-- Cancellatura riga 8-->
+                <zone ulx="381" uly="446" lrx="476" lry="481" rendition="hotspot" xml:id="facs_pag3-lb11-del6" /> <!-- Cancellatura riga 11-->
+                <zone ulx="422" uly="492" lrx="480" lry="519" rendition="hotspot" xml:id="facs_pag3-lb16-del7" /> <!-- Cancellatura riga 16-->
+                <zone ulx="363" uly="668" lrx="389" lry="692" rendition="hotspot" xml:id="facs_pag3-lb16-add3" /> <!-- Aggiunta su cancellatura riga 16-->
+                <zone ulx="507" uly="726" lrx="685" lry="759" rendition="hotspot" xml:id="facs_pag3-lb17-del8" /> <!-- Cancellatura riga 17-->
+
+        </surface>
+
+        <!-- Pagina Quarta -->
+        <surfaceGrp>
+            <!-- Pagina 4 -->
+            <surface n="2" xml:id="pagina_quarto">
+                <graphic url='pagina4.jpg' width='500px' height='1024px' />  
+                <zone ulx="38" uly="21" lrx="709" lry="958"  rendition="hotspot" xml:id="facs_24nov-1943-pag4"/> <!-- contenuto di 24 novembre 1943 -->
+
+                <!-- Righe -->
+                <zone ulx="47" uly="33" lrx="669" lry="73" rendition="line" xml:id="facs_pag4-lb1"/> <!-- Riga 1 -->
+                <zone ulx="47" uly="81" lrx="665" lry="121" rendition="line" xml:id="facs_pag4-lb2"/> <!-- Riga 2 -->
+                <zone ulx="44" uly="128" lrx="667" lry="161" rendition="line" xml:id="facs_pag4-lb3"/> <!-- Riga 3 -->
+                <zone ulx="43" uly="174" lrx="668" lry="211" rendition="line" xml:id="facs_pag4-lb4"/> <!-- Riga 4 -->
+                <zone ulx="48" uly="228" lrx="682" lry="272" rendition="line" xml:id="facs_pag4-lb5"/> <!-- Riga 5 -->
+                <zone ulx="47" uly="278" lrx="677" lry="317" rendition="line" xml:id="facs_pag4-lb6"/> <!-- Riga 6 -->
+                <zone ulx="43" uly="332" lrx="681" lry="362" rendition="line" xml:id="facs_pag4-lb7"/> <!-- Riga 7 -->
+                <zone ulx="41" uly="374" lrx="687" lry="411" rendition="line" xml:id="facs_pag4-lb8"/> <!-- Riga 8 -->
+                <zone ulx="40" uly="421" lrx="675" lry="466" rendition="line" xml:id="facs_pag4-lb9"/> <!-- Riga 9 -->
+                <zone ulx="42" uly="474" lrx="668" lry="515" rendition="line" xml:id="facs_pag4-lb10"/> <!-- Riga 10 -->
+                <zone ulx="34" uly="523" lrx="695" lry="558" rendition="line" xml:id="facs_pag4-lb11"/> <!-- Riga 11 -->
+                <zone ulx="41" uly="573" lrx="667" lry="611" rendition="line" xml:id="facs_pag4-lb12"/> <!-- Riga 12 -->
+                <zone ulx="41" uly="619" lrx="680" lry="668" rendition="line" xml:id="facs_pag4-lb13"/> <!-- Riga 13 -->
+                <zone ulx="34" uly="675" lrx="675" lry="710" rendition="line" xml:id="facs_pag4-lb14"/> <!-- Riga 14 -->
+                <zone ulx="37" uly="722" lrx="678" lry="761" rendition="line" xml:id="facs_pag4-lb15"/> <!-- Riga 15 -->
+                <zone ulx="36" uly="766" lrx="663" lry="803" rendition="line" xml:id="facs_pag4-lb16"/> <!-- Riga 16 -->
+                <zone ulx="39" uly="810" lrx="662" lry="848" rendition="line" xml:id="facs_pag4-lb17"/> <!-- Riga 17 -->
+                <zone ulx="35" uly="859" lrx="701" lry="907" rendition="line" xml:id="facs_pag4-lb18"/> <!-- Riga 18 -->
+                <zone ulx="37" uly="917" lrx="683" lry="956" rendition="line" xml:id="facs_pag4-lb19"/> <!-- Riga 19 -->
+    
+                <!-- Hotspot -->
+                <zone ulx="623" uly="329" lrx="675" lry="358" rendition="hotspot" xml:id="facs_pag4-lb18-del1"/> <!-- Cancellatura riga 7 --> 
+                <zone ulx="37" uly="917" lrx="683" lry="956" rendition="hotspot" xml:id="facs_pag4-lb18-del2"/> <!-- Cancellatura riga 18 -->                
+                <zone ulx="42" uly="888" lrx="244" lry="946"  rendition="hotspot" xml:id="facs_pag4-lb18-add1"/> <!--Aggiunta riga 18 -->
+
+            </surface>
+
+            <!-- Pagina 5 -->
+            <surface n="3" xml:id="pagina_quinto">
+                <graphic url='pagina5.jpg' width='500px' height='1024px' />
+
+                <zone ulx="43" uly="35" lrx="703" lry="345"  rendition="hotspot" xml:id="facs_24nov-1943-pag5"/> <!-- contenuto di 24 novembre 1943 -->
+                <zone ulx="38" uly="341" lrx="693" lry="981"  rendition="hotspot" xml:id="facs_25nov-1943-pag5" /> <!-- contenuto di 25 novembre 1943 -->
+
+                <!-- Righe -->
+                <zone ulx="51" uly="40" lrx="693" lry="85"  rendition="line" xml:id="facs_pag5-lb1"/> <!-- Riga 1 -->
+                <zone ulx="42" uly="87" lrx="683" lry="126"  rendition="line" xml:id="facs_pag5-lb2"/> <!-- Riga 2 -->
+                <zone ulx="39" uly="133" lrx="682" lry="173" rendition="line" xml:id="facs_pag5-lb3"/> <!-- Riga 3 -->
+                <zone ulx="40" uly="181" lrx="662" lry="222" rendition="line" xml:id="facs_pag5-lb4"/> <!-- Riga 4 -->
+                <zone ulx="39" uly="228" lrx="666" lry="277" rendition="line" xml:id="facs_pag5-lb5"/> <!-- Riga 5 -->
+                <zone ulx="39" uly="279" lrx="691" lry="334" rendition="line" xml:id="facs_pag5-lb6"/> <!-- Riga 6 -->
+                <zone ulx="446" uly="331" lrx="525" lry="366"  rendition="line" xml:id="facs_pag5-lb7"/> <!-- Riga 7 -->
+                <zone ulx="42" uly="357" lrx="681" lry="397" rendition="line" xml:id="facs_pag5-lb8"/> <!-- Riga 8 -->
+                <zone ulx="36" uly="393" lrx="700" lry="436" rendition="line" xml:id="facs_pag5-lb9"/> <!-- Riga 9 -->
+                <zone ulx="33" uly="427" lrx="659" lry="470" rendition="line" xml:id="facs_pag5-lb10"/> <!-- Riga 10 -->
+                <zone ulx="27" uly="471" lrx="685" lry="509" rendition="line" xml:id="facs_pag5-lb11"/> <!-- Riga 11 -->
+                <zone ulx="29" uly="514" lrx="690" lry="551" rendition="line" xml:id="facs_pag5-lb12"/> <!-- Riga 12 -->
+                <zone ulx="33" uly="556" lrx="698" lry="592" rendition="line" xml:id="facs_pag5-lb13"/> <!-- Riga 13 -->
+                <zone ulx="32" uly="597" lrx="663" lry="630" rendition="line" xml:id="facs_pag5-lb14"/> <!-- Riga 14 -->
+                <zone ulx="27" uly="638" lrx="663" lry="674" rendition="line" xml:id="facs_pag5-lb15"/> <!-- Riga 15 -->
+                <zone ulx="29" uly="683" lrx="698" lry="718" rendition="line" xml:id="facs_pag5-lb16"/> <!-- Riga 16 -->
+                <zone ulx="30" uly="723" lrx="675" lry="758" rendition="line" xml:id="facs_pag5-lb17"/> <!-- Riga 17 -->
+                <zone ulx="32" uly="771" lrx="651" lry="800" rendition="line" xml:id="facs_pag5-lb18"/> <!-- Riga 18 -->
+                <zone ulx="39" uly="813" lrx="698" lry="842" rendition="line" xml:id="facs_pag5-lb19"/> <!-- Riga 19 -->
+                <zone ulx="35" uly="855" lrx="691" lry="881" rendition="line" xml:id="facs_pag5-lb20"/> <!-- Riga 20 -->
+                <zone ulx="42" uly="895" lrx="677" lry="919" rendition="line" xml:id="facs_pag5-lb21"/> <!-- Riga 21 -->
+                <zone ulx="44" uly="931" lrx="622" lry="961" rendition="line" xml:id="facs_pag5-lb22"/> <!-- Riga 22 -->
+    
+                <!-- Hotspot -->
+                <zone ulx="336" uly="358" lrx="408" lry="394" rendition="hotspot" xml:id="facs_pag5-lb7-del1"/> <!-- Cancellatura riga 7 -->                
+                <zone ulx="323" uly="647" lrx="430" lry="680"  rendition="hotspot" xml:id="facs_pag5-lb14-del2"/> <!-- Cancellatura riga 10 -->    
+
+
+            </surface>
+        </surfaceGrp>
+
+        <!-- Pagina 6-->
+        <surface n="4" xml:id="pagina_sesto">
+            <graphic url='pagina6.jpg' width='500px' height='1024px' />
+                <zone ulx="37" uly="26" lrx="710" lry="983"  rendition="hotspot" xml:id="facs_25nov-1943-pag6" /> <!-- contenuto di 25 novembre 1943 -->
+               
+                 <!-- Righe -->
+                <zone ulx="41" uly="40" lrx="665" lry="73"   rendition="line" xml:id="facs_pag6-lb1"/> <!-- Riga 1 -->
+                <zone ulx="38" uly="83" lrx="668" lry="119"   rendition="line" xml:id="facs_pag6-lb2"/> <!-- Riga 2 -->
+                <zone ulx="40" uly="124" lrx="657" lry="165" rendition="line" xml:id="facs_pag6-lb3"/> <!-- Riga 3 -->
+                <zone ulx="47" uly="170" lrx="681" lry="214" rendition="line" xml:id="facs_pag6-lb4"/> <!-- Riga 4 -->
+                <zone ulx="48" uly="212" lrx="681" lry="259" rendition="line" xml:id="facs_pag6-lb5"/> <!-- Riga 5 -->
+                <zone ulx="50" uly="258" lrx="665" lry="294" rendition="line" xml:id="facs_pag6-lb6"/> <!-- Riga 6 -->
+                <zone ulx="43" uly="306" lrx="659" lry="340" rendition="line" xml:id="facs_pag6-lb7"/> <!-- Riga 7 -->
+                <zone ulx="44" uly="356" lrx="640" lry="382" rendition="line" xml:id="facs_pag6-lb8"/> <!-- Riga 8 -->
+                <zone ulx="54" uly="396" lrx="681" lry="424" rendition="line" xml:id="facs_pag6-lb9"/> <!-- Riga 9 -->
+                <zone ulx="42" uly="435" lrx="668" lry="463" rendition="line" xml:id="facs_pag6-lb10"/> <!-- Riga 10 -->
+                <zone ulx="42" uly="478" lrx="698" lry="510" rendition="line" xml:id="facs_pag6-lb11"/> <!-- Riga 11 -->
+                <zone ulx="38" uly="522" lrx="662" lry="552" rendition="line" xml:id="facs_pag6-lb12"/> <!-- Riga 12 -->
+                <zone ulx="37" uly="563" lrx="689" lry="590" rendition="line" xml:id="facs_pag6-lb13"/> <!-- Riga 13 -->
+                <zone ulx="43" uly="606" lrx="683" lry="636" rendition="line" xml:id="facs_pag6-lb14"/> <!-- Riga 14 -->
+                <zone ulx="44" uly="647" lrx="687" lry="675" rendition="line" xml:id="facs_pag6-lb15"/> <!-- Riga 15 -->
+                <zone ulx="47" uly="695" lrx="645" lry="717" rendition="line" xml:id="facs_pag6-lb16"/> <!-- Riga 16 -->
+                <zone ulx="51" uly="736" lrx="650" lry="761" rendition="line" xml:id="facs_pag6-lb17"/> <!-- Riga 17 -->
+                <zone ulx="48" uly="774" lrx="667" lry="812" rendition="line" xml:id="facs_pag6-lb18"/> <!-- Riga 18 -->
+                <zone ulx="38" uly="791" lrx="683" lry="839" rendition="line" xml:id="facs_pag6-lb19"/> <!-- Riga 19 -->
+                <zone ulx="38" uly="869" lrx="636" lry="888" rendition="line" xml:id="facs_pag6-lb20"/> <!-- Riga 20 -->
+                <zone ulx="54" uly="914" lrx="649" lry="935" rendition="line" xml:id="facs_pag6-lb21"/> <!-- Riga 21 -->
+                <zone ulx="39" uly="946" lrx="630" lry="974" rendition="line" xml:id="facs_pag6-lb22"/> <!-- Riga 22 -->
+    
+                <!-- Hotspot -->
+                <zone ulx="117" uly="424" lrx="235" lry="443"  rendition="hotspot" xml:id="facs_pag6-lb10-add1"/> <!-- Aggiunta riga 10 -->                
+                <zone ulx="487" uly="609" lrx="616" lry="632" rendition="hotspot" xml:id="facs_pag5-lb14-del1"/> <!-- Cancellatura riga 14 -->    
+                <zone ulx="485" uly="588" lrx="630" lry="607" rendition="hotspot" xml:id="facs_pag5-lb14-add2"/> <!-- Aggiunta su cancellatura riga 14-->
+                <zone ulx="258" uly="732" lrx="419" lry="758" rendition="hotspot" xml:id="facs_pag5-lb17-del2"/> <!-- Cancellatura riga 17 -->  
+        </surface>
+  
+        <!-- Pagina 7-->
+        <surface n="5" xml:id="pagina_settesimo">
+            <graphic url='pagina7.jpg' width='500px' height='1024px' />
+                <zone ulx="48" uly="46" lrx="723" lry="994"  rendition="hotspot" xml:id="facs_27nov-1943-pag7" /> <!-- contenuto di 27 novembre 1943 -->
+
+                 <!-- Righe -->
+                <zone ulx="496" uly="35" lrx="640" lry="62"  rendition="line" xml:id="facs_pag7-lb1" /> <!-- Riga 1 -->
+                <zone ulx="53" uly="58"  lrx="689" lry="97"  rendition="line" xml:id="facs_pag7-lb2"/> <!-- Riga 2 -->
+                <zone ulx="47" uly="102" lrx="712" lry="130" rendition="line" xml:id="facs_pag7-lb3"/> <!-- Riga 3 -->
+                <zone ulx="48" uly="145" lrx="707" lry="169" rendition="line" xml:id="facs_pag7-lb4"/> <!-- Riga 4 -->
+                <zone ulx="55" uly="182" lrx="712" lry="208" rendition="line" xml:id="facs_pag7-lb5"/> <!-- Riga 5 -->
+                <zone ulx="66" uly="222" lrx="683" lry="240" rendition="line" xml:id="facs_pag7-lb6"/> <!-- Riga 6 -->
+                <zone ulx="58" uly="257" lrx="693" lry="286" rendition="line" xml:id="facs_pag7-lb7"/> <!-- Riga 7 -->
+                <zone ulx="56" uly="291" lrx="701" lry="323" rendition="line" xml:id="facs_pag7-lb8"/> <!-- Riga 8 -->
+                <zone ulx="40" uly="326" lrx="701" lry="363" rendition="line" xml:id="facs_pag7-lb9"/> <!-- Riga 9 -->
+                <zone ulx="44" uly="367" lrx="669" lry="397" rendition="line" xml:id="facs_pag7-lb10"/> <!-- Riga 10 -->
+                <zone ulx="50" uly="405" lrx="687" lry="435" rendition="line" xml:id="facs_pag7-lb11"/> <!-- Riga 11 -->
+                <zone ulx="53" uly="440" lrx="705" lry="476" rendition="line" xml:id="facs_pag7-lb12"/> <!-- Riga 12 -->
+                <zone ulx="61" uly="473" lrx="700" lry="521" rendition="line" xml:id="facs_pag7-lb13"/> <!-- Riga 13 -->
+                <zone ulx="52" uly="515" lrx="693" lry="561" rendition="line" xml:id="facs_pag7-lb14"/> <!-- Riga 14 -->
+                <zone ulx="59" uly="561" lrx="700" lry="596" rendition="line" xml:id="facs_pag7-lb15"/> <!-- Riga 15 -->
+                <zone ulx="53" uly="603" lrx="693" lry="636" rendition="line" xml:id="facs_pag7-lb16"/> <!-- Riga 16 -->
+                <zone ulx="48" uly="643" lrx="691" lry="673" rendition="line" xml:id="facs_pag7-lb17"/> <!-- Riga 17 -->
+                <zone ulx="42" uly="678" lrx="696" lry="712" rendition="line" xml:id="facs_pag7-lb18"/> <!-- Riga 18 -->
+                <zone ulx="46" uly="720" lrx="682" lry="747" rendition="line" xml:id="facs_pag7-lb19"/> <!-- Riga 19 -->
+                <zone ulx="58" uly="755" lrx="709" lry="783" rendition="line" xml:id="facs_pag7-lb20"/> <!-- Riga 20 -->
+                <zone ulx="52" uly="796" lrx="707" lry="825" rendition="line" xml:id="facs_pag7-lb21"/> <!-- Riga 21 -->
+                <zone ulx="50" uly="831" lrx="680" lry="861" rendition="line" xml:id="facs_pag7-lb22"/> <!-- Riga 22 -->
+                <zone ulx="50" uly="875" lrx="673" lry="891" rendition="line" xml:id="facs_pag7-lb23"/> <!-- Riga 23 -->
+                <zone ulx="56" uly="913" lrx="727" lry="929" rendition="line" xml:id="facs_pag7-lb24"/> <!-- Riga 24 -->
+                <zone ulx="52" uly="943" lrx="701" lry="959" rendition="line" xml:id="facs_pag7-lb25"/> <!-- Riga 25 -->
+                <zone ulx="51" uly="967" lrx="723" lry="989" rendition="line" xml:id="facs_pag7-lb26"/> <!-- Riga 26 -->
+
+                <!-- Hotspot -->
+                <zone ulx="501" uly="105" lrx="704" lry="130" rendition="hotspot" xml:id="facs_pag7-lb2-del1"/> <!-- Cancellatura riga 2 -->    
+                <zone ulx="19" uly="299" lrx="189"  lry="328" rendition="hotspot" xml:id="facs_pag7-lb8-add1"/> <!--  Aggiunta margine dx riga 8 -->
+                <zone ulx="388" uly="529" lrx="453" lry="551" rendition="hotspot" xml:id="facs_pag7-lb14-del2"/> <!-- Cancellatura riga 14 -->  
+                <zone ulx="365" uly="569" lrx="488" lry="590" rendition="hotspot" xml:id="facs_pag7-lb15-del3"/> <!-- Cancellatura riga 15 -->  
+                <zone ulx="252" uly="794" lrx="313" lry="814" rendition="hotspot" xml:id="facs_pag7-lb21-del4"/> <!-- Cancellatura riga 21 -->  
+                <zone ulx="423" uly="907" lrx="502" lry="921" rendition="hotspot" xml:id="facs_pag7-lb24-del5"/> <!-- Cancellatura riga 24 -->  
+
+        </surface>  
+
+    </facsimile>
+
+    <!-- Contiene codifica delle pagine, le frase corrette e complete, bibliografia, listperson,listplace,listorganization  !-->
+    <text subtype="diary" hand="#EA"> 
+        <!-- Gruppo contiene sia codifica delle pagine, sia le frase corrette e complete !-->
+        <group> 
+            <!-- Gruppo di codifica delle pagine 3,4,5,6,7-->
+            <group xml:id="it_diario" xml:lang="it" type="transcription">
+               <!-- Questo testo contiene codifica delle pagine !-->
+                <text>
+                    <body>
+                        <!--Codifica del testo di pagina 3 -->
+
+                        <!-- Inizio pagina 3-->
+                        <pb n="3" facs="pagina3.png" xml:id="pagina_2" type="page_full"/>
+
+                        <!-- 23 novembre 1943 -->
+                        <ab xml:id="giorno_91Caac0001" type="day" n="23" xml:lang="it" facs="#facs_23nov-1943-pag3" corresp="#it_91Caac0001">
+                            <!--Date Gap--> 
+                            <date when="1943-11-23" xml:id="lb0-pag3"><gap reason="omitted"/></date>
+                            <!-- Riga 1 -->
+                            <lb xml:id="lb1-pag3" n="1" facs="#facs_pag3-lb1"/>
+                            <del rend="overstrike" facs="#facs_pag3-lb1-del1" > <unclear reason="parteased" cert="high" resp="#EA"> e vissuto </unclear> </del> 
+                            Un diario non può essere
+                            <!-- Riga 2 -->
+                            <lb xml:id="lb2-pag3" n="2" facs="#facs_pag3-lb2" />
+                            opera di poesia o di pensiero, perché 
+                            <!-- Riga 3 -->
+                            <lb xml:id="lb3-pag3" n="3" facs="#facs_pag3-lb3" />
+                            <del rend="overstrike" facs="#facs_pag3-lb3-del2" > <unclear reason="parteased" cert="high" resp="#EA"> é una </unclear> </del> 
+                            rappresenta una immediata
+                            <!-- Riga 4 -->
+                            <lb xml:id="lb4-pag3" n="4" facs="#facs_pag3-lb4" />
+                            relazione di
+                            <subst hand="#EA"> 
+                                <del rend="parteased" facs="#facs_pag3-lb4-del3" resp="#AT" cert="medium">esperienze</del> 
+                                <add hand="#EA" place="above" facs="#facs_pag3-lb4-add1" >fatti</add>
+                            </subst> personali,
+                            <!-- Riga 5 -->
+                            <lb xml:id="lb5-pag3" n="5" facs="#facs_pag3-lb5" />
+                            mentre la poesia e il pensiero nascono
+                            <!-- Riga 6 -->
+                            <lb xml:id="lb6-pag3" n="6" facs="#facs_pag3-lb6" />
+                            da un
+                            <add hand="#EA" place="above" facs="#facs_pag3-lb6-add2" >lungo </add>
+                            approfondimento interiore
+                            <!-- Riga 7 -->
+                            <lb xml:id="lb7-pag3" n="7" facs="#facs_pag3-lb7" />
+                            delle nostre esperienze <pc>.</pc>
+                            <del rend="overstrike" facs="#facs_pag3-lb7-del4" > ,che può </del> 
+                            <!-- Riga 8 -->
+                            <lb xml:id="lb8-pag3" n="8" facs="#facs_pag3-lb8"/>
+                            <del rend="overstrike" facs="#facs_pag3-lb8-del5" > durare per anni e anni </del> 
+                            però
+                            <!-- Riga 9 -->
+                            <lb xml:id="lb9-pag3" n="9" facs="#facs_pag3-lb9" /> 
+                            serve come documentario e come
+                            <!-- Riga 10 -->
+                            <lb xml:id="lb10-pag3" n="10" facs="#facs_pag3-lb10" /> 
+                            strumento di disciplina morale <pc>.</pc>
+                            <!-- Riga 11 -->
+                            <lb xml:id="lb11-pag3" n="11" facs="#facs_pag3-lb11" />
+                            Tornerò su questo  
+                            <del rend="overstrike" facs="#facs_pag3-lb11-del6" > <unclear reason="parteased" cert="high" resp="#AT"> punto </unclear> </del>
+                            argomento <pc>.</pc>
+                        </ab>
+                        <!-- Fine 23 novembre 1943-->
+
+                        <!-- 24 novembre 1943 -->
+                        <ab xml:id="giorno_91Caac0002" type="day" n="24" xml:lang="it" facs="#facs_24nov-1943-pag3" corresp="#it_91Caac0002">
+                         <!-- Riga 12 -->
+                            <lb xml:id="lb12-pag3" n="12" facs="#facs_pag3-lb12" />
+                            <date when="1943-11-24" rend="align(right)"><abbr type="suspension">24. </abbr> <expan>24 novembre 1943</expan></date>
+                         <!-- Riga 13 -->
+                            <lb xml:id="lb13-pag3" n="13" facs="#facs_pag3-lb13" />
+                                <add hand="#EA" place="inline" facs="#facs_pag3-lb13-add3" > 
+                                     <choice> 
+                                          <sic> Ier </sic>
+                                          <corr> <date when="1943-11-23"> Ieri </date> </corr>       
+                                      </choice>
+                                 </add>
+                            sera ebbi il colloquio con
+                            <persName ref="#PZ"> <abbr type="initial">P.Z </abbr> <expan>P. Z.</expan> </persName> 
+                            , un giovane
+                            <!-- Riga 14 -->
+                            <lb xml:id="lb14-pag3" n="14" facs="#facs_pag3-lb14" />
+                            astuto e svelto, che dà molta importanza alla 
+                            <!-- Riga 15 -->
+                            <lb xml:id="lb15-pag3" n="15" facs="#facs_pag3-lb15" break="no"/>
+                             sua opera <pc>.</pc>
+                            <!-- Riga 15 continuazione -->
+                             Mi disse di diffidere di 
+                             <persName ref="#F"> <abbr type="initial">F </abbr> <expan>F.</expan> </persName> 
+                             perché 
+                            <!-- Riga 16 -->
+                            <lb xml:id="lb16-pag3" n="16" facs="#facs_pag3-lb16"/>
+                            pettegolo, di 
+                           <persName ref="#MR"> <abbr type="initial">M.R </abbr> <expan>M. R.</expan> </persName> 
+                            perché racconta tutto alla
+                            <!-- Riga 17-->
+                            <lb xml:id="lb17-pag3" n="17" facs="#facs_pag3-lb17"/>
+                            sua amante <pc>.</pc> 
+                          <!-- Riga 17 continuazione -->
+                            Il 
+                            <add hand="#EA" place="inline" facs="##facs_pag3-lb17-add4">
+                                <choice >
+                                        <abbr>com</abbr>
+                                        <expan>commandante</expan>
+                                </choice> 
+                            </add>
+                            <del rend="overstrike" facs="#facs_pag3-lb17-del8" > <unclear reason="parteased" cert="high" resp="#EA">m </unclear> </del>
+                            <persName ref="#B"> <abbr type="initial">B </abbr> <expan>Barbato</expan> </persName>
+                            mi aveva dato un 
+                            <!-- Riga 18 -->
+                            <lb xml:id="lb18-pag3" n="18" facs="#facs_pag3-lb18" /> 
+                            appuntamento in serata  e poi 
+                            <del rend="overstrike" facs="#facs_pag3-lb18-del9" > dice di me </del>
+                            <!-- Riga 19 -->
+                            <lb xml:id="lb19-pag3" n="19" facs="#facs_pag3-lb19" /> 
+                            mi avverti di essere occupato, un secondo
+                            <!-- Riga 20 -->
+                            <lb xml:id="lb20-pag3" n="20" facs="#facs_pag3-lb20" />
+                            <date when="1943-11-24">stamane</date>alle <time when="08:30:00"> 8 e mezzo</time>, ma giunse
+                            <!-- Riga 21 -->
+                            <lb xml:id="lb21-pag3" n="21" facs="#facs_pag3-lb21" />
+                            alle<time when="10:45:00"> undici meno un quarto</time><pc>.</pc>
+                            <!-- Riga 21 continuazione -->
+                             Ero molto
+                            <!-- Riga 22 -->
+                            <lb xml:id="lb22-pag3" n="22" facs="#facs_pag3-lb22" />
+                            seccato e per tutto il tempo di attesa
+                            <!-- Riga 23 -->
+                            <lb xml:id="lb23-pag3" n="23" facs="#facs_pag3-lb23" />
+                            immaginai sdegnati discorsi da  
+
+                            <!-- Codifica del testo di pagina 4 -->
+
+                            <!-- Inizio pagina 4 -->
+                            <pb n="4" facs="pagina4.jpg" xml:id="pagina_3" type="page_full" />
+                            <!-- Continuazione, cominciata nella pagina precedente -->
+                            <!-- Riga 1 -->
+                            <lb xml:id="lb1-pag4" n="1" facs="#facs_pag4-lb1" />
+                            rivolgergli, ma poi naturalmente
+                            <!-- Riga 2 -->
+                            <lb xml:id="lb2-pag4" n="2" facs="#facs_pag4-lb2" />
+                            tacqui; è troppo cordiale ed <w>entu
+                            <!-- Riga 3 -->
+                            <lb xml:id="lb3-pag4" n="3" facs="#facs_pag4-lb3" break="no" rend="double stroke" />
+                            siasta</w> per non perdonare 
+                             <add hand="#EA" place="inline" facs="#facs_pag4-lb6-add4" > 
+                                <choice> 
+                                    <sic> ila </sic>
+                                    <corr> la </corr>       
+                                </choice>
+                            </add> <w>man
+                            <!-- Riga 4 -->
+                            <lb xml:id="lb4-pag4" n="4" facs="#facs_pag4-lb4" break="no" rend="double stroke" />
+                            canza</w> di ordine, metodo e puntualità <pc>;</pc>
+                            <!-- Riga 5 -->
+                            <lb xml:id="lb5-pag4" n="5" facs="#facs_pag4-lb5" />
+                            si comprende che per visitare un <w>ma
+                            <!-- Riga 6 -->
+                            <lb xml:id="lb6-pag4" n="6" facs="#facs_pag4-lb6" break="no" rend="double stroke" />
+                            lato</w> a cui vuol bene, abbandoni per
+                            <!-- Riga 7 -->
+                            <lb xml:id="lb7-pag4" n="7" facs="#facs_pag4-lb7" /> 
+                            un giorno tutta la compagnia e
+                            <del rend="scribble"><gap reason="illegible" agent="scribble" atLeast="2" atMost="3" unit="chars"> </gap> </del> 
+                            <!-- Riga 8 -->
+                            <lb xml:id="lb8-pag4" n="8" facs="#facs_pag4-lb8" />
+                            trascuri gli appuntamenti <pc>.</pc>
+                            <!-- Riga 8 continuazione -->
+                            Pensando
+                            <!-- Riga 9 -->
+                            <lb xml:id="lb9-pag4" n="9" facs="#facs_pag4-lb9"/>    
+                            che bisogna aiutarsi da sé , sono <w>an
+                            <!-- Riga 10 -->
+                            <lb xml:id="lb10-pag4" n="10" facs="#facs_pag4-lb10" break="no" rend="double stroke" />
+                            dato</w> a <placeName ref="#MC">Montanello</placeName> a cercare
+                            <!-- Riga 11 -->
+                            <lb xml:id="lb11-pag4" n="11" facs="#facs_pag4-lb11" />
+                            una stanza<pc>:</pc> forse ho trovato una
+                            <!-- Riga 12 -->
+                            <lb xml:id="lb12-pag4" n="12" facs="#facs_pag4-lb12" />
+                            topaia cara e bruttissima, senza
+                            <!-- Riga 13 -->
+                            <lb xml:id="lb13-pag4" n="13" facs="#facs_pag4-lb13"/>
+                            luce, senza riscaldamento, senza 
+                            <!-- Riga 14 -->
+                            <lb xml:id="lb14-pag4" n="14" facs="#facs_pag4-lb14"/>
+                            acqua, senza mobili, coi vetri in
+                            <!-- Riga 15 -->
+                            <lb xml:id="lb15-pag4" n="15" facs="#facs_pag4-lb15" /> 
+                            parte rotti: <num>80</num> lire al mese e c’è
+                            <!-- Riga 16 -->
+                            <lb xml:id="lb16-pag4" n="16" facs="#facs_pag4-lb16" /> 
+                            il problema del vitto<pc>!</pc>
+                            <!-- Riga 16 continuazione -->
+                            Ma ormai
+                            <!-- Riga 17 -->
+                            <lb xml:id="lb17-pag4" n="17" facs="#facs_pag4-lb17" />
+                            mi sono abituato agli scomodi
+                            <!-- Riga 18 -->
+                            <lb xml:id="lb18-pag4" n="18" facs="#facs_pag4-lb18" />
+                            e li soffro
+                            <add hand="#EA" place="below" facs="#facs_pag4-lb18-add5" >con piacere </add>
+                            con l'idea
+                            <del rend="scribble"><gap reason="illegible" agent="scribble" atLeast="2" atMost="3" unit="chars"> </gap> </del>
+                            confusa
+                            <!-- Riga 19 -->
+                            <lb xml:id="lb19-pag4" n="19" facs="#facs_pag4-lb19" break="no"/>
+                            ma persistente che
+
+                            <!-- Codifica del testo di pagina 4 -->
+
+                            <!-- Inizio pagina 5 -->
+                            <pb n="5" facs="pagina5.jpg" xml:id="pagina_4" type="page_full"/>
+                            <!-- Continuazione, cominciata nella pagina precedente -->
+                            <!-- Riga 1 -->
+                            <lb xml:id="lb1-pag5" n="1" facs="#facs_pag5-lb1" />
+                            in futuro troverò soddisfazione forse
+                            <!-- Riga 2 -->
+                            <lb xml:id="lb2-pag5" n="2" facs="#facs_pag5-lb2" />
+                            rituffandomi nella civiltà e <w>goden
+                            <!-- Riga 3 -->
+                            <lb xml:id="lb3-pag5" n="3" facs="#facs_pag5-lb3" break="no" rend="double stroke" />
+                            dola</w> in pieno  e come cosa nuova <pc>-</pc> <w>se
+                            <!-- Riga 4 -->
+                            <lb xml:id="lb4-pag5" n="4" facs="#facs_pag5-lb4" break="no" rend="double stroke" />
+                            condo</w> la  dialettica degli opposti
+                            <!-- Riga 5 -->
+                            <lb xml:id="lb5-pag5" n="5" facs="#facs_pag5-lb5" />
+                            del Fedone platonico<pc>;</pc> forse <w>ricor
+                            <!-- Riga 6 -->
+                            <lb xml:id="lb6-pag5" n="6" facs="#facs_pag5-lb6" break="no" rend="double stroke"/>
+                            dando</w> e descrivendo il tempo passato. 
+                    </ab>
+                        <!-- Fine 24 novembre 1943 -->
+
+                        <!-- 25 novembre 1943  -->
+                        <ab type="day" xml:id="giorno_91Caac0003" n="25" xml:lang="it" facs="#facs_25nov-1943-pag5" corresp="#it_91Caac0003">
+                        <!-- Riga 7 -->
+                        <lb xml:id="lb7-pag5" n="7" facs="#facs_pag5-lb7" />
+                        <date when="1943-11-25" rend="align(right)"><abbr type="suspension">25. </abbr> <expan cert="high" resp="#IH">25 novembre 1943</expan></date>
+                        <!-- Riga 8 -->
+                        <lb xml:id="lb8-pag5" n="8" facs="#facs_pag5-lb8" />
+                        <date when="1943-11-25">Stamane</date> ricevetti una
+                        <del rend="overstrike" facs="#facs_pag5-lb8-del1" > <unclear reason="parteased" cert="high" resp="#AT"> visita </unclear> </del> 
+                        lettera di papà
+                        <!-- Riga 9 -->
+                        <lb xml:id="lb9-pag5" n="9" facs="#facs_pag5-lb98" />
+                        che preannunzia una sua prossima visita,
+                        <!-- Riga 10 -->
+                        <lb xml:id="lb10-pag5" n="10" facs="#facs_pag5-lb10" />
+                        che forse si prolungherà qualche
+                        <!-- Riga 11 -->
+                        <lb xml:id="lb11-pag5" n="11" facs="#facs_pag5-lb11" />
+                        tempo.
+                        <!-- Continuazione, cominciata nella pagina precedente -->
+                        Per questo mi sarebbe <w>piac
+                        <!-- Riga 12 -->
+                        <lb xml:id="lb12-pag5" n="12" facs="#facs_pag5-lb12" break="no" rend="double stroke" />
+                        iuta</w> la casetta di <placeName ref="#CN">Mondarello</placeName>, dove
+                        <!-- Riga 13 -->
+                        <lb xml:id="lb13-pag5" n="13" facs="#facs_pag5-lb13" />
+                        avremmo potuto stare insieme, anche
+                        <!-- Riga 14 -->
+                        <lb xml:id="lb14-pag5" n="14" facs="#facs_pag5-lb14" />
+                        se scomoda
+                                <add hand="#EA" place="inline" facs="#facs_pag5-lb14-add1" > 
+                                       <choice> 
+                                            <sic> <pc>-</pc> </sic>
+                                            <corr> <pc>.</pc> </corr>       
+                                        </choice>
+                                </add>
+                                        <choice resp="#IH">
+                                            <orig><date when="1943-11-25">oggi</date></orig>
+                                            <reg><date when="1943-11-25">Oggi</date></reg>
+                                        </choice>
+                        il propertario mi
+                        <!-- Riga 15 -->
+                        <lb xml:id="lb15-pag5" n="15" facs="#facs_pag5-lb15" />
+                                        <choice resp="#IH">
+                                            <orig>dise</orig>
+                                            <reg>disse</reg>
+                                        </choice>
+                        che voleva
+                        <del rend="overstrike" facs="#facs_pag5-lb15-del2"> <unclear reason="deleted" cert="high" resp="#EA">tenerla </unclear> </del >
+                        due mesi di
+                        <!-- Riga 16 -->
+                        <lb xml:id="lb16-pag5" n="16" facs="#facs_pag5-lb16" />
+                        affitto anticipato perché nessun inquilino                    
+                        <!-- Riga 17 -->
+                        <lb xml:id="lb17-pag5" n="17" facs="#facs_pag5-lb17" />
+                        ha potuto resistere piu di 15 giorni;
+                        <!-- Riga 18 -->
+                        <lb xml:id="lb18-pag5" n="18" facs="#facs_pag5-lb18" />
+                        La presenza di papà mi farebbe
+                        <!-- Riga 19 -->
+                        <lb xml:id="lb19-pag5" n="19" facs="#facs_pag5-lb19" />
+                        molto piacere da un lato, ma dall'altro
+                        <!-- Riga 20 -->
+                        <lb xml:id="lb20-pag5" n="20" facs="#facs_pag5-lb20" />
+                        penso che se avessi da compiere qualche
+                        <!-- Riga 21 -->
+                        <lb xml:id="lb21-pag5" n="21" facs="#facs_pag5-lb21" />
+                        missione pericolosa, sarebbe meglio che
+                        <!-- Riga 22 -->
+                        <lb xml:id="lb22-pag5" n="22" facs="#facs_pag5-lb22" />
+                        fosse lontano e non avesse da
+
+                        <!-- Codifica del testo di pagina 5 -->
+
+                        <!-- Inizio pagina 6 -->
+                        <pb n="6" facs="pagina6.jpg" xml:id="pagina_5" type="page_full"/>
+                        <!-- Continuazione, cominciata nella pagina precedente -->
+                        <!-- Riga 1 -->
+                        <lb xml:id="lb1-pag6" n="1" facs="#facs_pag6-lb1" />
+                        preoccuparsene <pc>.</pc>
+                        <date when="1943-11-26">Domattina</date> sarò
+                        <!-- Riga 2 -->
+                        <lb xml:id="lb2-pag6" n="2" facs="#facs_pag6-lb2" />
+                        in 
+                        <add hand="#EA" place="inline" facs="#facs_pag6-lb2-add1" > 
+                                <choice> 
+                                    <sic> infermerià </sic>
+                                    <corr> infermeria </corr>       
+                                </choice>
+                        </add>
+                         e comincerò il mio
+                        <!-- Riga 3 -->
+                        <lb xml:id="lb3-pag6" n="3" facs="#facs_pag6-lb3" />
+                        lavoro <pc>.</pc>
+                        <!-- Continuazione, cominciata nella pagina precedente -->          
+                        Pare che nelle bande
+                        <!-- Riga 4 -->
+                        <lb xml:id="lb4-pag6" n="4" facs="#facs_pag6-lb4" />
+                        sia stato rimesso un poco di ordine <pc>.</pc>
+                        <!-- Riga 5 -->
+                        <lb xml:id="lb5-pag6" n="5" facs="#facs_pag6-lb5" />
+                        <placeName ref="#MRT">Moretta</placeName>, che brinda sempre alla
+                        <!-- Riga 6 -->
+                        <lb xml:id="lb6-pag6" n="6" facs="#facs_pag6-lb6" />
+                        libertà, <date when="1943-11-25"> oggi </date> prediceva la <w>ca    
+                        <!-- Riga 7 -->
+                        <lb xml:id="lb7-pag6" n="7" facs="#facs_pag6-lb7" break="no" rend="double stroke" />
+                        duta</w> di <persName ref="#AH">Hitler</persName> per il <date when="1943-12-15"> 15 dicembre </date><pc>;</pc>       
+                        <!-- Riga 8 -->
+                        <lb xml:id="lb8-pag6" n="8" facs="#facs_pag6-lb8" />
+                        io, al più tardi, per l'autunno
+                        <!-- Riga 9 -->
+                        <lb xml:id="lb9-pag6" n="9" facs="#facs_pag6-lb9" />
+                        venturo<pc>.</pc> Significativo che gli <w>scio
+                        <!-- Riga 10 -->
+                        <lb xml:id="lb10-pag6" n="10" facs="#facs_pag6-lb10" break="no" rend="double stroke"/>
+                        peri</w>
+                        <add hand="#EA" place="above" facs="#facs_pag6-lb10-add2" >di <placeName ref="#TO">Torino</placeName> </add>
+                        si prolunghino e che il governo
+                        <!-- Riga 11 -->
+                        <lb xml:id="lb11-pag6" n="11" facs="#facs_pag6-lb11" />
+                        non li sappia arginare; significativo
+                        <!-- Riga 12 -->
+                        <lb xml:id="lb12-pag6" n="12" facs="#facs_pag6-lb12" />
+                        pure che né i 
+                        <choice resp="#IH">
+                            <orig>Tedeschi</orig>
+                            <reg>tedeschi</reg>
+                        </choice>
+                        , né i fascisti
+                        <!-- Riga 13 -->
+                        <lb xml:id="lb13-pag6" n="13" facs="#facs_pag6-lb13" />
+                        abbiano iniziato azioni di <w>rappresa
+                        <!-- Riga 14 -->
+                        <lb xml:id="lb14-pag6" n="14" facs="#facs_pag6-lb14" break="no" rend="double stroke" />
+                        glia</w> contro le bande dopo
+                        <subst hand="#EA"> 
+                            <del rend="overstrike" facs="#facs_pag6-lb14-del1" resp="#AT" cert="medium">il fatto</del> 
+                            <add hand="#EA" place="above" facs="#facs_pag6-lb14-add3" >l'impresa</add>
+                        </subst>
+                        di
+                        <!-- Riga 15 -->
+                        <lb xml:id="lb15-pag6" n="15" facs="#facs_pag6-lb15" />
+                        <placeName ref="#CR">Crissolo</placeName> <pc>.</pc>
+                        
+                        <date when="1943-11-25">Oggi</date> c'è stato il Consiglio dei
+                        <!-- Riga 16 -->
+                        <lb xml:id="lb16-pag6" n="16" facs="#facs_pag6-lb16" />
+                        Ministri; un provvedimento sugli                         
+                        <!-- Riga 17 -->
+                        <lb xml:id="lb17-pag6" n="17" facs="#facs_pag6-lb17" />
+                        <choice resp="#IH">
+                            <orig>Ebrei</orig>
+                            <reg>ebrei</reg>
+                        </choice>
+                        ,cioè l'obbligo di
+                        <del rend="overstrike" facs="#facs_pag6-lb17-del2"> <unclear reason="deleted" cert="high" resp="#EA">la cosa </unclear> </del>
+                        <!-- Riga 18 -->
+                        <lb xml:id="lb18-pag6" n="18" facs="#facs_pag6-lb18" />
+                        consegnare le opere d'arte, mentre
+                        <!-- Riga 19 -->
+                        <lb xml:id="lb19-pag6" n="19" facs="#facs_pag6-lb19" />
+                        tutti ci aspettavamo il campo di
+                        <!-- Riga 20 -->
+                        <lb xml:id="lb20-pag6" n="20" facs="#facs_pag6-lb20" />
+                        concentramento: si è mai vista una
+                        <!-- Riga 21 -->
+                        <lb xml:id="lb21-pag6" n="21" facs="#facs_pag6-lb21" />
+                        simile buffanata <pc type="interrogative">?</pc>
+                        D'altra parte è
+                        <!-- Riga 22 -->
+                        <lb xml:id="lb22-pag6" n="22" facs="#facs_pag6-lb22" />
+                        una legge molto facile da eludere
+                        </ab>
+                        <!-- Fine 25 novembre 1943 -->
+
+                        <!-- Codifica del testo di pagina 6 -->
+
+                        <!-- Inizio pagina 7 -->
+                        <pb n="7" facs="pagina7.jpg" xml:id="pagina_6" type="page_full"/>
+                        <!-- 27 novembre 1943  -->
+                        <ab type="day" xml:id="giorno_91Caac0004" n="27" xml:lang="it" facs="#facs_27nov-1943-pag7" corresp="#it_91Caac0004">
+                        <!-- Riga 1 -->
+                        <lb xml:id="lb1-pag7" n="1" facs="#facs_pag7-lb1" />
+                        <date when="1943-11-27" rend="align(right)"><abbr type="suspension">27 nov. </abbr> <expan>27 novembre 1943</expan></date>
+                        <!-- Riga 2 -->
+                        <lb xml:id="lb2-pag7" n="2" facs="#facs_pag7-lb2" />
+                        <add hand="#EA" place="inline" facs="#facs_pag7-lb2-add1" > 
+                                <choice> 
+                                    <sic> ELe </sic>
+                                    <corr> Il </corr>       
+                                </choice>
+                        </add>
+                        grande avvenimento di <date when="1943-11-26"> ieri </date> fu la visita
+                        <!-- Riga 3 -->
+                        <lb xml:id="lb3-pag7" n="3" facs="#facs_pag7-lb3" />
+                        di papà <pc>.</pc>
+                        Alla mattina lavorai
+                        <del rend="overstrike" facs="#facs_pag7-lb3-del1"> <unclear reason="deleted" cert="high" resp="#EA">al mio ufficio </unclear> </del>
+                        <!-- Riga 4 -->
+                        <lb xml:id="lb4-pag7" n="4" facs="#facs_pag7-lb4" />
+                        per la banda <pc>.</pc>
+                        Ricevetti in un caffè con sergente
+                        <!-- Riga 5 -->
+                        <lb xml:id="lb5-pag7" n="5" facs="#facs_pag7-lb5" />
+                        maggiore e un negoziante di <placeName ref="#GS">Gilba Superiore</placeName> 
+                        <!-- Riga 6 chiedi lore -->
+                        <lb xml:id="lb6-pag7" n="6" facs="#facs_pag7-lb6" />
+                        che riferirono sul movimento partigiano
+                        <!-- Riga 7 -->
+                        <lb xml:id="lb7-pag7" n="7" facs="#facs_pag7-lb7" />
+                        del loro paese; mi diede un membro di arie
+                        <!-- Riga 8 chiedi lore -->
+                        <lb xml:id="lb8-pag7" n="8" facs="#facs_pag7-lb8" />
+                        e promisi  solennementeal negoziante che
+                        <!-- Riga 9 -->
+                        <lb xml:id="lb9-pag7" n="9" facs="#facs_pag7-lb9" />
+                        <add hand="#EA" place="margin" facs="#facs_pag7-lb9-add2" >dopo la vittoria </add>
+                        ci saremo ricordati di lui <pc>.</pc>
+                        Poi preparai la
+                        <!-- Riga 10 -->
+                        <lb xml:id="lb10-pag7" n="10" facs="#facs_pag7-lb10" />
+                        la relazione e una dichiarazione per un
+                        <!-- Riga 11 -->
+                        <lb xml:id="lb11-pag7" n="11" facs="#facs_pag7-lb11" />
+                        ufficiale <pc>.</pc> 
+                        Tutto qui<pc>.</pc>
+                        Avviene in queste in<pc>-</pc>
+                        <!-- Riga 12 CHIEDI LORE-->
+                        <lb xml:id="lb12-pag7" n="12" facs="#facs_pag7-lb12" />
+                        combenze militari che si sia occupati tutto
+                        <!-- Riga 13 -->
+                        <lb xml:id="lb13-pag7" n="13" facs="#facs_pag7-lb13" />
+                        il giorno per un lavoro che richiede due o
+                        <!-- Riga 14 -->
+                        <lb xml:id="lb14-pag7" n="14" facs="#facs_pag7-lb14" />
+                        tre ore, ma i passanti,
+                        <del rend="scribble"><gap reason="illegible" agent="scribble" atLeast="3" atMost="5" unit="chars"> </gap> </del> 
+                        le chiacchiere degli
+                        <!-- Riga 15 -->
+                        <lb xml:id="lb15-pag7" n="15" facs="#facs_pag7-lb15" />
+                        altri soldati in ozio,
+                        <del rend="overstrike" facs="#facs_pag7-lb15-del2"> <unclear reason="deleted" cert="high" resp="#EA">la mano </unclear> </del>
+                        il freddo, la
+                        <!-- Riga 16 -->
+                        <lb xml:id="lb16-pag7" n="16" facs="#facs_pag7-lb16" />
+                        mancanza di agi e tranquillità non <pc>-</pc> <w>per
+                        <!-- Riga 17 -->
+                        <lb xml:id="lb17-pag7" n="17" facs="#facs_pag7-lb17" break="no" rend="double stroke" />
+                        mettono</w> neppure di studiare <pc>.</pc>
+                        <date when="1943-11-27"> Al pomeriggio </date>
+                        <!-- Riga 18 -->
+                        <lb xml:id="lb18-pag7" n="18" facs="#facs_pag7-lb18" />
+                        accompagnai <persName ref="#FdF">Fiore</persName>in infermeria <pc>.</pc>
+                        Fra tutti
+                        <!-- Riga 19 -->
+                        <lb xml:id="lb19-pag7" n="19" facs="#facs_pag7-lb19" />
+                        i communisti autodidatti e piuttosto ignoranti,
+                        <!-- Riga 20 -->
+                        <lb xml:id="lb20-pag7" n="20" facs="#facs_pag7-lb20" />
+                        ignoranti spesso con pretese di cultura, come
+                        <!-- Riga 21 -->
+                        <lb xml:id="lb21-pag7" n="21" facs="#facs_pag7-lb21" />
+                        quel tale che 
+                        <del rend="overstrike" facs="#facs_pag7-lb21-del3"> <unclear reason="deleted" cert="high" resp="#EA">dice </unclear> </del>
+                        si vantava
+                        <add hand="#EA" place="above" facs="#facs_pag7-lb21-add3" >con me </add>
+                        di aver studiato
+                        <!-- Riga 22 CHIEDI LORE La Madre di Gorki va messo qualcosa altro con #ref -->
+                        <lb xml:id="lb22-pag7" n="22" facs="#facs_pag7-lb22" />
+                        <name ref="#VP">La Madre di Gorki</name> e <persName ref="#ME">Martini Eden</persName> di
+                        <persName ref="#JL"> <abbr type="initial">J. </abbr> <expan>Jack</expan> </persName> 
+                        <!-- Riga 23 CHIEDI LORE -->
+                        <lb xml:id="lb23-pag7" n="23" facs="#facs_pag7-lb23" />
+                        <persName ref="#JL"><surname>London</surname></persName>, <persName ref="#FdF">Fiore</persName> è il più evoluto e istruito;
+                        <!-- Riga 24 CHIEDI LORE -->
+                        <lb xml:id="lb24-pag7" n="24" facs="#facs_pag7-lb24" />
+                        uomo non più giovane,
+                        <del rend="overstrike" facs="#facs_pag7-lb24-del4"> <unclear reason="deleted" cert="high" resp="#EA">poco </unclear> </del>
+                        non combattivo
+                        <!-- Riga 25 -->
+                        <lb xml:id="lb25-pag7" n="25" facs="#facs_pag7-lb25" />
+                        nè polemico, parla calmo e convinto con
+                        <!-- Riga 26 -->
+                        <lb xml:id="lb26-pag7" n="26" facs="#facs_pag7-lb26" />
+                        molto buon senso <pc>.</pc>
+                        Credo che sabbia scrivere
+                    </ab>
+                        <!-- Fine 27 novembre 1943 -->
+
+                     </body>
+                </text>
+            </group>
+
+            <!-- Gruppo delle frase complete italiana di pagina 2,3,4,5,6-->
+            <group xml:id="it_diario_frasi" xml:lang="it" type="frasi">
+                <!-- Contiene le frase corrette e complete con le sue date  !-->
+                <text>
+                    <body source="#BCDEC" resp="#GSC">
+                        <div>
+                            <pb n="3" xml:id="it_diario-pag3" type="page_full" />
+                            <!-- 23 novembre 1943 -->
+                            <ab xml:id="it_91Caac0001" type="day" corresp="#giorno_91Caac0001" n="23" xml:lang="it"> 
+                                Un diario non può essere
+                                opera di poesia o di pensiero, perché
+                                rappresenta una immediata
+                                relazione di fatti personali,
+                                mentre la poesia e il pensiero nascono
+                                da un lungo approfondimento interiore
+                                delle nostre esperienze .
+                                però
+                                serve come documentario e come
+                                strumento di disciplina morale .
+                                Tornerò su questo argomento .
+                            </ab>   
+
+                            <!-- 24 novembre 1943 -->
+                            <ab xml:id="it_91Caac0002" type="day" corresp="#giorno_91Caac0002" n="24" xml:lang="it"> 
+                                Ieri sera ebbi il colloquio con P. Z. , un giovane
+                                astuto e svelto, che dà molta importanza alla
+                                sua opera . Mi disse di diffidere di F. perché
+                                pettegolo, di M. R. perché racconta tutto alla
+                                sua amante . Il commandante Barbato mi aveva dato un
+                                appuntamento in serata e poi
+                                mi avverti di essere occupato, un secondo
+                                stamanealle 8 e mezzo, ma giunse
+                                alle undici meno un quarto. Ero molto
+                                seccato e per tutto il tempo di attesa
+                                immaginai sdegnati discorsi da
+
+                                <!-- Inizio pagina 4 -->
+                                <pb n="4" xml:id="it_diario-pag4" type="page_full"/>
+                                <!-- Continuazione -->
+                                rivolgergli, ma poi naturalmente
+                                tacqui; è troppo cordiale ed entu
+                                siasta per non perdonare la man
+                                canza di ordine, metodo e puntualità ;
+                                si comprende che per visitare un ma
+                                lato a cui vuol bene, abbandoni per
+                                un giorno tutta la compagnia e
+                                trascuri gli appuntamenti . Pensando
+                                che bisogna aiutarsi da sé , sono an
+                                dato a Montanello a cercare
+                                una stanza: forse ho trovato una
+                                topaia cara e bruttissima, senza
+                                luce, senza riscaldamento, senza
+                                acqua, senza mobili, coi vetri in
+                                parte rotti: 80 lire al mese e c’è
+                                il problema del vitto! Ma ormai
+                                mi sono abituato agli scomodi
+                                e li soffro con piacere con l'idea confusa
+                                ma persistente che
+                                <!-- Inizio pagina 5 -->
+                                <pb n="5" xml:id="it_diario-pag5" type="page_full"/>
+                                <!-- Continuazione -->
+                                in futuro troverò soddisfazione forse
+                                rituffandomi nella civiltà e goden
+                                dola in pieno e come cosa nuova - se
+                                condo la dialettica degli opposti
+                                del Fedone platonico; forse ricor
+                                dando e descrivendo il tempo passato.
+                            </ab>
+
+                        <!-- 25 novembre 1943 -->
+                            <ab xml:id="it_91Caac0003" type="day" corresp="#giorno_91Caac0003" n="25" xml:lang="it">
+                                Stamane ricevetti una lettera di papà
+                                che preannunzia una sua prossima visita,
+                                che forse si prolungherà qualche
+                                tempo. Per questo mi sarebbe piac
+                                iuta la casetta di Mondarello, dove
+                                avremmo potuto stare insieme, anche
+                                se scomoda . oggi il propertario mi
+                                dise che voleva due mesi di
+                                affitto anticipato perché nessun inquilino
+                                ha potuto resistere piu di 15 giorni;
+                                La presenza di papà mi farebbe
+                                molto piacere da un lato, ma dall'altro
+                                penso che se avessi da compiere qualche
+                                missione pericolosa, sarebbe meglio che
+                                fosse lontano e non avesse da
+                                
+                                <!-- Inizio pagina 6 -->
+                                <pb n="6" xml:id="it_diario-pag6" type="page_full"/>
+                                preoccuparsene . Domattina sarò
+                                in infermeria e comincerò il mio
+                                lavoro . Pare che nelle bande
+                                sia stato rimesso un poco di ordine .
+                                Moretta, che brinda sempre alla
+                                libertà, oggi prediceva la ca
+                                duta di Hitler per il 15 dicembre ;
+                                io, al più tardi, per l'autunno
+                                venturo. Significativo che gli scio
+                                peri di Torino si prolunghino e che il governo
+                                non li sappia arginare; significativo
+                                pure che né i Tedeschi , né i fascisti
+                                abbiano iniziato azioni di rappresa
+                                glia contro le bande dopo l'impresa di
+                                Crissolo . Oggi c'è stato il Consiglio dei
+                                Ministri; un provvedimento sugli
+                                Ebrei ,cioè l'obbligo di
+                                consegnare le opere d'arte, mentre
+                                tutti ci aspettavamo il campo di
+                                concentramento: si è mai vista una
+                                simile buffanata ? D'altra parte è
+                                una legge molto facile da eludere
+                            </ab>
+                            
+                            <!-- Inizio pagina 7 -->
+                            <pb n="7" xml:id="it_diario-pag7" type="page_full"/>
+                        <!-- 27 novembre 1943-->
+                            <ab xml:id="it_91Caac00004" type="day" corresp="#giorno_91Caac0004" n="27" xml:lang="it"> 
+                                Il grande avvenimento di ieri fu la visita
+                                di papà . Alla mattina lavorai
+                                per la banda . Ricevetti in un caffè con sergente
+                                maggiore e un negoziante di Gilba Superiore
+                                che riferirono sul movimento partigiano
+                                del loro paese; mi diede un membro di arie
+                                e promisi solennementeal negoziante che
+                                dopo la vittoria ci saremo ricordati di lui . Poi preparai la
+                                la relazione e una dichiarazione per un
+                                ufficiale . Tutto qui. Avviene in queste in-
+                                combenze militari che si sia occupati tutto
+                                il giorno per un lavoro che richiede due o
+                                tre ore, ma i passanti, le chiacchiere degli
+                                altri soldati in ozio, il freddo, la
+                                mancanza di agi e tranquillità non - per
+                                mettono neppure di studiare . Al pomeriggio
+                                accompagnai Fiorein infermeria . Fra tutti
+                                i communisti autodidatti e piuttosto ignoranti,
+                                ignoranti spesso con pretese di cultura, come
+                                quel tale che si vantava con me di aver studiato
+                                La Madre di Gorki e Martini Eden di Jack
+                                London, Fiore è il più evoluto e istruito;
+                                uomo non più giovane, non combattivo
+                                nè polemico, parla calmo e convinto con
+                                molto buon senso . Credo che sabbia scrivere
+                            </ab>
+
+                        </div>
+                    </body>
+                </text>
+            </group>
+        </group> 
+
+        <back>
+            <div>
+                <!-- Bibliografia -->
+                <listBibl xml:id="diario-bibliography">
+                    <head>Bibliografia</head>
+                    
+                    <!--Informazione CDEC-->
+                    <bibl xml:id="BCDEC" source="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html" > 
+                        <title>Diari di un partigiano ebre</title>
+                        <author>
+                            <persName ref="#GSC">
+                                <forename>Guri</forename> 
+                                <surname>Schwarz</surname>
+                            </persName>
+                        </author>
+                        <date when="2008">2008</date>
+                        <publisher>Bollati Boringhieri</publisher>
+                        <pubPlace><placeName ref="#TO">Torino</placeName></pubPlace>
+                        <note>
+                            Raccolta pubblicata integralmente da Guri Schwarz
+                        </note>
+                    </bibl>
+
+                    <!--Informazione CDEC 2-->
+                    <bibl xml:id="BCDEC2" source="https://archive.org/details/artom_diari_1966_images/page/n3/mode/2up" > 
+                        <title> Diari: <date from="1940-01--" to="1944-02--">gennaio 1940 - febbraio 1944</date></title>
+                        <author>
+                            <persName ref="#PDB"> 
+                                <forename>Paola</forename> 
+                                <surname>De Benedetti</surname>
+                            </persName>
+                            <persName ref="#ER"> 
+                                <forename>Eloisa</forename> 
+                                <surname>Ravenna</surname>
+                            </persName>
+                        </author>
+                        <date when="1966">1966</date>
+                        <publisher ref="#CDEC">CDEC - Centro di Documentazione Ebraica Contemporanea</publisher>
+                        <pubPlace><placeName ref="#MI">Milano</placeName></pubPlace>
+                        <note>
+                            Edizione parziale in cui si racconta l'esperienza partigiana di Emanuele Artom sulla base degli scritti che egli stendeva a volte a penna a volte a matita su fogli d'occasione.
+                        </note>
+                    </bibl>
+
+                    <!--Informazione CDEC 3-->
+
+                    <bibl xml:id="BCDEC3" source="https://www.museotorino.it/view/s/23367913251740a8b38dd89e8f19ba12" > 
+                        <title>Tre vite. Dall'ultimo 800 ai primi del 900</title>
+                        <title type="sub">Studi e memorie di Emilio, Emanuele, Ennio Artom</title>
+                        <author>
+                            <persName ref="#BT"> 
+                                <forename>Benvenuta</forename> 
+                                <surname>Treves</surname>
+                            </persName>
+                        </author>
+                        <date when="1954">1954</date>
+                        <publisher>Casa editrice Israel</publisher>
+                        <pubPlace><placeName ref="#FI">Firenze</placeName></pubPlace>
+                        <note>
+                            Prima pubblicazione parziale.
+                        </note>
+                    </bibl>             
+
+                </listBibl>
+
+                <!-- Persone -->
+                <listPerson xml:id="diario-people">
+                    <head>Persone</head>
+                    
+                    <!--Amalia Artom-->
+                    <person> 
+                        <persName xml:id="AA" role="author">
+                            <forename>Amalia</forename>
+                            <surname>Artom</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+
+                    <!--Angelo Mario Del Grosso-->
+                    <person sameAs="https://viaf.org/viaf/323148207835400342025"> 
+                        <persName xml:id="AMDG" role="professor"> 
+                            <forename>Angelo</forename>
+                            <forename>Mario</forename>
+                            <surname>Del Grosso</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1980-02-19">19 Febbraio 1980</date>
+                            <placeName ref="#BN">
+                                <settlement type="municipality">Benevento</settlement>
+                                <settlement type="provincia" key="BN">Benevento</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth>
+                    </person>
+
+                    <!--Emanuele Artom-->
+                    <person sameAs="http://worldcat.org/identities/lccn-n85366771/"> 
+                        <persName xml:id="EA"  role="author"> 
+                            <forename>Emanuele</forename>
+                            <surname>Artom</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                        <date when="1915-06-23">23 Giugno 1915</date>
+							<placeName xml:id="AO">
+								<settlement>Aosta</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+                        </birth>
+						<death>
+							<date when="1944-04-07">7 aprile 1944</date>
+							<placeName ref="#TO">
+								<settlement>Torino</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</death>
+                    </person>
+
+                    <!-- Iskandar Huseynzade -->
+                    <person>
+                        <persName xml:id="IH" role="student"> 
+                            <forename>Iskandar</forename>
+                            <surname>Huseynzade</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="2001-05-14">14 Maggio 2001</date>
+							<placeName xml:id="BA">
+								<settlement>Baku</settlement>
+								<country key="AZE">Azerbaigan</country>
+							</placeName>
+                        </birth> 
+                    </person>
+
+                    <!-- Ashmita Tandukar -->
+                    <person>
+                        <persName xml:id="AT" role="student"> 
+                            <forename>Ashmita</forename>
+                            <surname>Tandukar</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <birth>
+                            <date when="2001-02-14">14 Febbraio 2001</date>
+							<placeName xml:id="KAT">
+								<settlement>Katmandu</settlement>
+								<country key="NPL">Nepal</country>
+							</placeName>
+                        </birth> 
+                    </person>
+
+                    <!-- Guri Scwarz -->
+                    <person>
+                        <persName xml:id="GSC" role="professor"> 
+                            <forename>Guri</forename>
+                            <surname>Scwarz</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1975-03-02">2 Marzo 1975</date>
+							<placeName xml:id="MI">
+								<settlement>Milano</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+                        </birth> 
+                    </person>
+
+                    <!-- Paola De Benedetti -->
+                    <person> 
+						<persName xml:id="PDB">
+                            <ref xml:lang="it" target="http://digital-library.cdec.it/cdec-web/persone/detail/person-it-cdec-eaccpf0001-009648/de-benedetti-paola.html?persone=%22De+Benedetti%2C+Paola%22"/>
+							<forename> Paola </forename>
+							<surname> De Benedetti </surname>
+						</persName>
+						<sex> F </sex>
+						<birth>
+							<date when="1934-09-09">9 settembre 1934</date>
+							<placeName xml:id="AL">
+								<settlement type="municipality">Alessandria</settlement>
+                                <settlement type="region">Piemonte</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</birth>
+					</person>
+
+                    <!-- Eloisa Ravenna -->
+                    <person> 
+						<persName xml:id="ER">
+                            <ref xml:lang="it" target="http://digital-library.cdec.it/cdec-web/persone/detail/person-it-cdec-eaccpf0001-016195/ravenna-eloisa.html"/>
+							<forename> Eloisa </forename>
+							<surname> Ravenna </surname>
+						</persName>
+						<sex> F </sex>
+						<birth>
+							<date when="1930-12-12">12 dicembre 1930</date>
+							<placeName ref="#TO">
+								<settlement type="municipality">Torino</settlement>
+                                <settlement type="region">Piemonte</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</birth>
+                        <death>
+							<date when="1973-09-08">8 settembre 1973</date>
+							<placeName ref="#TO">
+								<settlement type="municipality">Torino</settlement>
+                                <settlement type="region">Piemonte</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</death>
+					</person>           
+
+                    <!-- Benvenuta Treves -->
+                    <person xml:id="BT"> 
+						<persName>
+							<forename> Benvenuta </forename>
+							<surname> Treves </surname>
+						</persName>
+						<sex> F </sex>
+					</person>
+
+                    <!-- P.Z. -->
+                    <person> 
+						<persName xml:id="PZ" type="unknown">
+                            <forename>P.</forename>
+                            <surname>Z.</surname>
+                        </persName>
+						<sex> M </sex>
+                        <note>
+                            <p> Non identificato </p>
+                        </note>
+					</person>
+
+                    <!-- F. -->
+                    <person> 
+						<persName xml:id="F" type="unknown">F.</persName>
+						<sex> M </sex>
+                        <note>
+                            <p> Non identificato </p>
+                        </note>
+					</person> 
+
+                    <!-- M.R. -->
+                    <person> 
+						<persName xml:id="MR" type="unknown">
+                            <forename>M.</forename>
+                            <surname>R.</surname>
+                        </persName>
+						<sex> M </sex>
+                        <note>
+                            <p> Non identificato </p>
+                        </note>
+					</person> 
+
+                    <!-- F. del F. -->
+                    <person> 
+						<persName xml:id="FdF" role="painter">
+                         <forename>Francesco</forename>
+                         <nameLink>del</nameLink>
+                         <surname>Fiore</surname>
+                        </persName>
+						<birth cert="medium">
+							<date when="1412"> 1412 </date>
+							<placeName xml:id="VE">
+								<settlement>Venezia</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</birth>
+						<death cert="medium">
+							<date when="1439"> 1439 </date>
+						</death>
+						<sex> M </sex>
+					</person> 
+
+                    <!-- B -->
+                    <person>
+						<persName xml:id="B" role="commander">
+					        <ref xml:lang="it" target="https://it.wikipedia.org/wiki/Pompeo_Colajanni#:~:text=%22Barbato%22%20divenne%20la%20figura%20centrale,della%201%C2%AA%20Divisione%20Garibaldi%20Piemonte."/>
+                            <forename> Pompeo </forename>
+							<surname> Colajanni </surname>
+                        </persName>
+						<sex> M </sex>
+						<birth>
+							<date when="1906-01-4"> 4 gennaio 1906 </date>
+							<placeName xml:id="CL">
+								<settlement>Caltanissetta</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</birth>
+						<death>
+							<date when="1987-12-08"> 8 dicembre 1987</date>
+							<placeName xml:id="PA">
+								<settlement>Palermo</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</death>
+					</person>
+
+                    <!-- Martini Eden -->
+                    <person>
+						<persName xml:id="ME" role="novel character ">
+                            <forename> Martini </forename>
+							<surname> Eden </surname>
+                        </persName>
+						<sex> M </sex>
+						<death>
+							<date when="1916"> 1916 </date>
+						</death>
+					</person>
+
+                    <!-- Jack London -->
+                    <person>
+						<persName xml:id="JL" role="author">
+					        <ref xml:lang="it" target="https://it.wikipedia.org/wiki/Jack_London"/>
+                            <forename> Jack </forename>
+							<surname> London </surname>
+                        </persName>
+						<sex> M </sex>
+						<birth>
+							<date when="1876-01-12">12 gennaio 1876 </date>
+							<placeName xml:id="SF">
+								<settlement>San Francisco</settlement>
+								<country key="USA">Stati Uniti d'America</country>
+							</placeName>
+						</birth>
+						<death>
+							<date when="1916-11-22">22 novembre 1916</date>
+							<placeName xml:id="CA">
+								<settlement>California</settlement>
+								<country key="USA">Stati Uniti d'America</country>
+							</placeName>
+						</death>
+					</person>
+
+                    <!-- Adolf Hitler -->
+                    <person>
+						<persName xml:id="AH" role="historical character">
+					        <ref xml:lang="it" target="https://it.wikipedia.org/wiki/Adolf_Hitler"/>
+							<forename> Adolf </forename>
+							<surname> Hitler </surname>
+						</persName>
+						<sex> M </sex>
+						<birth>
+							<date when="1889-04-20">20 aprile 1889</date>
+							<placeName xml:id="BAI">
+								<settlement>Braunau am Inn</settlement>
+								<country key="AT">Austria</country>
+							</placeName>
+						</birth>
+						<death>
+							<date when="1945-04-30">30 aprile 1945</date>
+							<placeName xml:id="BERL">
+								<settlement>Berlino</settlement>
+								<country key="DE">Germania</country>
+							</placeName>
+						</death>
+					</person>
+
+                </listPerson>
+
+                <!-- Luoghi -->
+                <listPlace xml:id="diario-places"> 
+                    <head>Luoghi</head>
+                    
+                    <!--Milano-->
+                    <place>
+                        <placeName ref="https://www.geonames.org/3173435/milan.html https://www.treccani.it/enciclopedia/milano">Milano</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <!-- Pisa -->
+                    <place>
+                        <placeName xml:id="PI" ref="https://www.geonames.org/3170647/pisa.html https://www.treccani.it/enciclopedia/pisa/">Pisa</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <!-- Montanello -->
+                    <place>
+                        <placeName xml:id="MC" ref="https://www.geonames.org/8955518/montanello.html">Montanello</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <!-- Mondarello -->
+                    <place>
+                        <placeName xml:id="CN" ref="https://www.geonames.org/8956617/mondarello.html">Mondarello</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <!-- Moretta -->
+                    <place>
+                        <placeName xml:id="MRT" ref="https://www.geonames.org/6539666/moretta.html">Moretta</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <!-- Torino -->
+                    <place>
+                        <placeName xml:id="TO" ref="https://it.wikipedia.org/wiki/Torino">Torino</placeName>
+                        <country key="IT">Italia</country>
+                    </place>                    
+
+                    <!-- Crissolo -->
+                    <place>
+                        <placeName xml:id="CR" ref="https://www.geonames.org/3177805/crissolo.html">Crissolo</placeName>
+                        <country key="IT">Italia</country>
+                    </place>                    
+
+                    <!-- Gilba -->
+                    <place>
+                        <placeName xml:id="GS" ref="https://www.geonames.org/3176115/gilba-superiore.html">Gilba Superiore</placeName>
+                        <country key="IT">Italia</country>
+                    </place>                            
+
+                </listPlace>
+
+                <!-- Organizzazioni -->
+                <listOrg>
+                    <org xml:id="CDEC">
+                        <orgName ref="https://it.wikipedia.org/wiki/Fondazione_centro_di_documentazione_ebraica_contemporanea">Fondazione Centro di Documentazione Ebraica Contemporanea</orgName>
+                            <placeName ref="#MI">Milano</placeName>
+                        <desc>
+                            La Fondazione Centro di Documentazione Ebraica Contemporanea CDEC è un istituto storico culturale indipendente con sede a Milano.
+                        </desc>
+                    </org>
+
+                    <org xml:id="Unipi">
+                        <orgName ref="https://it.wikipedia.org/wiki/Universit%C3%A0_di_Pisa"> di Pisa</orgName>
+                            <placeName ref="#PI">Pisa</placeName>
+                        <desc>
+                            L'Università di Pisa (UniPi), istituita ufficialmente nel 1343, è una delle più antiche e prestigiose università in Italia e in Europa.
+                        </desc>
+                    </org>
+
+                </listOrg>
+
+            </div>
+        </back>
+    </text>
+
+</TEI>
