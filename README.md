@@ -1,6 +1,6 @@
-## Progetto di codifica di testi - Iskandar Huseynzade Ashmita Tandukar (2022-2023)
+## Progetto di codifica di testi - Iskandar Huseynzade (2022-2023)
 
-Il progetto è stato realizzato da Iskadnar Huseynzade ed Ashmita Tandukar per l'esame di codifica di testi, previsto dal corso di laurea triennale in Informatica Umanistica, nell'anno accademico 2023.
+Il progetto è stato realizzato da Iskadnar Huseynzade per l'esame di codifica di testi, previsto dal corso di laurea triennale in Informatica Umanistica, nell'anno accademico 2023.
 Il lavoro ha previsto la codifica di cinque pagine estratte dalla raccolta Diari di Emanuele Artom.
 
 L'xml alla base del progetto è stato validato utilizzando Xerces, mentre per la generazione dell'output xsl->html è stato usato Saxon.
